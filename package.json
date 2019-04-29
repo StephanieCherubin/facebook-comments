@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "create-react-app": "^3.0.0"
+  },
+  "name": "facebookComments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
