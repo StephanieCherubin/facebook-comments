@@ -19,5 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint-plugin-react": "^7.12.4"
-  }
+  },
+  "repository": "git@github.com:StephanieCherubin/facebook-comments.git",
+  "author": "Stephanie Cherubin <seraphin.cherubin@gmail.com>"
 }
