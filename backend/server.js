@@ -3,6 +3,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import logger from 'morgan';
 import mongoose from 'mongoose';
+import { getSecret } from './secrets'
+
 
 // create instances
 const app = express();
@@ -15,6 +17,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
+// db config -- set your URI from mLab in secrets.js
+mongoose.connect(getSecret('dbUri'));
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+
 // set the route path & initialize the API
 router.get('/', (req, res) => {
   res.json({ message: 'Use your platform! '});
@@ -22,3 +29,5 @@ router.get('/', (req, res) => {
 
 // use router configuration when we call /api
 app.use('/api', router);
+
+app.listen(API_PORT, () => console.log(`Listening on port ${API_PORT}`));
