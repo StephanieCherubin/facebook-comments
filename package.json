@@ -22,9 +22,9 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.7",
+    "mongoose": "^5.9.9",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.19.0"
