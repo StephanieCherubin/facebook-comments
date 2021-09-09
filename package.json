@@ -27,8 +27,9 @@
     "glob-parent": "^6.0.1",
     "mongoose": "^5.13.5",
     "morgan": "^1.10.0",
+    "mpath": "^0.8.4",
     "nodemon": "^2.0.12",
-    "tar": "^6.1.9"
+    "tar": "^6.1.11"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.24.0"
