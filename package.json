@@ -29,7 +29,7 @@
     "morgan": "^1.10.1",
     "mpath": "^0.8.4",
     "nodemon": "^3.0.1",
-    "tar": "^6.2.1"
+    "tar": "^7.5.3"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.24.0"
