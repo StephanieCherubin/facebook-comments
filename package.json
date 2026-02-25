@@ -16,7 +16,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.4",
     "braces": "^3.0.3",
     "chokidar": "^3.5.2",
     "concurrently": "^6.2.0",
@@ -29,7 +29,7 @@
     "morgan": "^1.10.1",
     "mpath": "^0.8.4",
     "nodemon": "^3.0.1",
-    "tar": "^6.2.1"
+    "tar": "^7.5.8"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.24.0"
